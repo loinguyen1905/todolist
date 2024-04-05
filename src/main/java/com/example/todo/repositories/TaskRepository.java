@@ -1,8 +1,10 @@
-package com.example.demo.repositories;
+package com.example.todo.repositories;
 
-import com.example.demo.models.Task; 
 import org.springframework.data.jpa.repository.JpaRepository; 
-import org.springframework.stereotype.Repository;   
+import org.springframework.stereotype.Repository;
+
+import com.example.todo.models.Task;
+
 import java.util.List; 
 
 @Repository

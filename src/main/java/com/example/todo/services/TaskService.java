@@ -1,10 +1,11 @@
-package com.example.demo.services;
+package com.example.todo.services;
 
-import com.example.demo.models.Task; 
-import com.example.demo.repositories.TaskRepository; 
 import org.springframework.beans.factory.annotation.Autowired; 
-import org.springframework.stereotype.Service; 
-  
+import org.springframework.stereotype.Service;
+
+import com.example.todo.models.Task;
+import com.example.todo.repositories.TaskRepository;
+
 import java.util.List; 
   
 @Service
