@@ -1,4 +1,4 @@
-package com.example.todo.models;
+package com.loinguyen1905.todo.entities;
 
 import java.io.Serializable;
 
@@ -25,11 +25,11 @@ public class User implements Serializable {
     @Column(name = "username")
     private String username;
 
-    @Column(name = "password")
-    private String password;
-
     @Column(name = "email")
     private String email;
+
+    @Column(name = "password")
+    private String password;
 
     public Long getId() {
         return this.id;
